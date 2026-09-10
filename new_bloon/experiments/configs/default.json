@@ -1,0 +1,32 @@
+{
+  "seed": 12345,
+  "generations": 100,
+  "population_size": 2,
+  "crossover_pairs_per_generation": 2,
+  "crossover_methods": ["single_point", "two_point", "block"],
+  "mutation": {
+    "substitution_rate": 0.005,
+    "insertion_rate": 0.10,
+    "deletion_rate": 0.10
+  },
+  "elitism": true,
+  "fitness_weights": {
+    "w_morphology": 1.0,
+    "w_novelty": 0.0,
+    "w_coverage": 0.0,
+    "w_constraint": 0.0
+  },
+  "gorilla_target": {
+    "body_size": 0.95,
+    "torso_width": 0.90,
+    "arm_length": 0.85,
+    "forearm_ratio": 0.55,
+    "leg_length": 0.35,
+    "shoulder_width": 0.95,
+    "muscle_mass": 0.92,
+    "jaw_size": 0.80,
+    "skull_ratio": 0.45,
+    "posture": 0.35,
+    "fur_density": 0.70
+  }
+}
